@@ -9,11 +9,11 @@ function Start() {
       <p className="py-4 text-xl">
         Want to test your literature knowledge? Look no further!
       </p>
-      <button className="my-8 p-4 rounded-lg text-bgBeige-500 text-xl bg-btnBlue-500">
+      <button className="my-8 p-4 rounded-lg text-bgBeige-500 text-xl bg-btnBlue-500 hover:bg-btnBlue-500/75">
         Start quiz
       </button>
     </div>
   )
-}
+};
 
 export default Start;

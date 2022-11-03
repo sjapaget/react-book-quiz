@@ -1,5 +1,5 @@
 import { React, useState } from 'react';
-import Start from './Start'
+import Start from './Start';
 
 function App() {
   return (
