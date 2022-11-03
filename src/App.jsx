@@ -1,14 +1,12 @@
-import { React, useState } from 'react'
-
+import { React, useState } from 'react';
+import Start from './Start';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div>
-      <h1>It works</h1>
+    <div className='h-screen flex flex-col justify-center items-center bg-bgBeige-500'>
+      <Start />
     </div>
   )
 }
 
-export default App
+export default App;
